@@ -26,11 +26,6 @@ https://support.zoom.us/hc/en-us/articles/115001799006-Mass-Deployment-with-Prec
 	&lt;string&gt;ncsu.zoom.us&lt;/string&gt;
 	&lt;key&gt;enableembedbrowserforsso&lt;/key&gt;
 	&lt;true/&gt;
-	&lt;key&gt;PackageRecommend&lt;/key&gt;
-		&lt;dict&gt;
-			&lt;key&gt;ZDisableVideo&lt;/key&gt;
-			&lt;true/&gt;
-		&lt;/dict&gt;
 &lt;/dict&gt;
 &lt;/plist&gt;</string>
 	</dict>
