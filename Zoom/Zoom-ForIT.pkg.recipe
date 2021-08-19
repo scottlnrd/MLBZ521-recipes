@@ -15,6 +15,24 @@ https://support.zoom.us/hc/en-us/articles/115001799006-Mass-Deployment-with-Prec
 		<string>Zoom</string>
 		<key>DOWNLOAD_URL</key>
 		<string>https://zoom.us/client/latest/ZoomInstallerIT.pkg</string>
+		<key>CONFIG_PLIST</key>
+		<string>&lt;?xml version=\"1.0\" encoding=\"UTF-8\"?&gt;
+&lt;!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\"&gt;
+&lt;plist version=\"1.0\"&gt;
+&lt;dict&gt;
+	&lt;key&gt;ZAutoSSOLogin&lt;/key&gt;
+	&lt;true/&gt;
+	&lt;key&gt;ZSSOHost&lt;/key&gt;
+	&lt;string&gt;ncsu.zoom.us&lt;/string&gt;
+	&lt;key&gt;enableembedbrowserforsso&lt;/key&gt;
+	&lt;true/&gt;
+	&lt;key&gt;PackageRecommend&lt;/key&gt;
+		&lt;dict&gt;
+			&lt;key&gt;ZDisableVideo&lt;/key&gt;
+			&lt;true/&gt;
+		&lt;/dict&gt;
+&lt;/dict&gt;
+&lt;/plist&gt;</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.1</string>
