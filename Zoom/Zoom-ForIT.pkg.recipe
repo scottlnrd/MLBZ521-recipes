@@ -136,7 +136,7 @@ else
 	echo "${2} has been installed!"
 	echo "Installing custom configuration details..."
 	/usr/bin/printf "${configuration}" > "${pkgDir}/us.zoom.config.plist"
-	/bin/mv "${pkgDir}/us.zoom.config.plist" "/Library/Preferences/us.zoom.config.plist"
+#	/bin/mv "${pkgDir}/us.zoom.config.plist" "/Library/Preferences/us.zoom.config.plist"
 fi
 
 echo "*****  Install Zoom-ForIT Process:  COMPLETE  *****"
